@@ -1,0 +1,135 @@
+/* create a new file name responsive.css
+col-lg- =>992px
+col-md- =>768px
+col-sm- =>576px
+col-xs-	<576px
+ */
+
+
+/*----==========1200px=======---------*/
+@media all and (max-width: 1200px){
+
+	/* service_section */
+
+.service_img img {
+   border: 0px solid #b706b7;
+    padding-right: 25px;
+}
+/* about_section */
+.about_img {
+    text-align: left;
+	max-width: 15%;
+}
+/* team_section */
+.card {
+    width: 225px;
+  
+}
+
+
+}
+
+/*----==========992px=======---------*/
+@media all and (max-width: 992px){
+/* about_section */
+.about_img img {
+    max-width: 90%;
+}
+/* service_section */
+.service_img img {
+	 border: 0px solid #b706b7; 
+   padding-right: 10px;
+}
+/* card_section */
+
+.card {
+    width: 325px;
+	margin-bottom: 25px;
+}
+
+
+
+
+
+}
+
+/*--------=======768px============---------*/
+@media all and (max-width: 768px){
+	.history_img2 {
+		width: 50%;
+	}
+
+	/* about_section */
+
+	.about_img img {
+		max-width: 100%;
+	}
+	
+/* service_section */
+.service_img img {
+    padding-bottom: 15px;
+}
+/* card_section */
+.card {
+
+    margin-bottom: 25px;
+    margin: 15px auto;
+}
+
+
+
+}
+/*---------==========576px=========-------*/
+
+@media all and (max-width: 576px){
+/* History_section */
+	.history_img2 {
+		/* position: absolute; */
+		/* width: 80%; */
+		margin-top: 0px;
+		margin-left: 0px;
+		width: 100%;
+	}
+	.history_img {
+		text-align: center;
+	}
+/* about_section */
+.about_img img {
+    max-width: 60%;
+    float: left;
+}
+
+/* team_section */
+.card {
+    width: 340px;
+}
+
+
+}
+
+
+/*------==========480px=========---------*/
+@media all and (max-width: 480px){
+
+}
+/*---------==========320px==========---------*/
+
+@media all and (max-width: 320px){
+
+}
+
+/*-------============290px============---------*/
+
+@media all and (max-width: 290px){
+
+}
+
+
+------OR----- 2ta ak sathe kaj koranor jonno
+
+@media all and (max-width: 480px) and (max-width: 768px{
+.mid_area{
+		background: #179c4b;
+	}
+
+}
